@@ -6,11 +6,11 @@ export class Navbar extends Component {
         return(
             <>
                 <div className='navigation'>
-                    <img className='navigation-item logo' src='../../imgs/cropped-logo.png'></img>
-                    <h1 className='navigation-item'>JUMP</h1>
-                    <button className='btn btn-primary navigation-item'>Home</button>
-                    <button className='btn btn-warning navigation-item'>About</button>
-                    <button className='btn btn-danger navigation-item'>Contact Us</button>
+                    <img alt='logo' className='navigation-item logo' src={require('../../imgs/cropped-logo.png')}></img>
+                    <a href='/' className='navigation-item'>Home</a>
+                    <a href='/about' className='navigation-item'>About</a>
+                    <a href='/contact' className='navigation-item'>Contact</a>
+    
                 </div>
             </>
         )
