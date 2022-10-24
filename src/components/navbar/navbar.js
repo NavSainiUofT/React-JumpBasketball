@@ -37,7 +37,7 @@ export class Navbar extends Component {
                 Contact
               </Nav.Link>
               <Dropdown>
-                <Dropdown.Toggle variant="success" id="dropdown-basic">
+                <Dropdown.Toggle variant="primary" id="dropdown-basic">
                   Dropdown Button
                 </Dropdown.Toggle>
 
